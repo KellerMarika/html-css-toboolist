@@ -17,10 +17,10 @@ body{
 }
 
 header{
-    padding-left: 10px;
+    padding:0.5rem 1rem;
     margin-bottom: 40px;
     background-color: white;
-    padding-bottom: 8px;
+   
 }
 
 h1{
@@ -28,11 +28,13 @@ h1{
     font-size: 2.5rem;
 }
 header img{
-    padding-top: 10px;
+    /* correzione non si mette mai il padding alle immagini!!! */
+   /*  padding-top: 10px; */
+
+   /* vertical align è meglio darlo ad entrambi gli elementi affiancati */
     vertical-align: top;
     width: 3rem;
 }
-
 
 nav{
     width: 60%;
@@ -61,8 +63,10 @@ nav li{
     padding: 5px 10px;
 }
 
+/* CORREZIONE: main deve sempre essere width:100% 
+si vanno a modificare le misure degli elementi all'interno!!*/
 main{
-    width: 95%;
+   /*  width: 95%; */
     margin: auto;
 }
 
@@ -115,4 +119,9 @@ span{
 background-color:#B0C926 ;
   }
 
+  .symbol{
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
   /* c'è da aggiustare l'allineamento degl li rispetto a list-style-image */
