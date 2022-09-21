@@ -1,0 +1,6 @@
+lavorare sulle classi non sugli elementi (come se fosse un lavoro grosso)
+non si mette mai il padding alle immagini!!!
+dare margin il meno possibile, lavorare di padding (prevenzione collasso dei margini)
+vertical-align è meglio darlo ad entrambi gli elementi da affiancare
+l'elemento "main" deve sempre essere width:100%.  si vanno a modificare le misure degli elementi all'interno!!
+implementare l'utilizzo di div container. anche solo per spaziare i contenuti.
